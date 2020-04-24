@@ -1,0 +1,38 @@
+.content{
+	margin: 48px;
+	background: red;
+}
+
+.row{
+	display: flex;
+	margin-bottom: 48px;
+}
+
+.article {
+	flex: 1;
+	margin-right: 48px;
+	margin-left: 48px;
+	margin-bottom: 48px;
+	margin-top: 48px;
+}
+
+.article: last_child {
+	margin-right: 0;
+}
+
+.article img {
+	width: 100%;
+}
+
+.article h1{
+	margin-top: 16px;
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+
+.article .details {
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: lowercase;
+	margin-top: 16px;
+}

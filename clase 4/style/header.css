@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+}
+
+/*.logo img {
+     display:block;
+     margin:auto; 
+	 border-radius: 140px;
+	 width: 200px; height: 200px;
+	
+}
+
+	<div class="logo">
+  	<img class="logo" src="mj-the-goat.jpg" alt="Logo"/>
+  </div>*/
+
+h1{
+	margin: 0;
+}
+.header{
+	width: 100%;
+	height: 718px;
+	background: url('../MJ23.jpg');
+	background-size: cover;
+	background-position: center bottom;
+	position: relative;
+}
+
+.header-filter{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.3;
+}
+
+.header-content {
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	border: 2px solid #fff;
+	border-radius: 4px;
+
+}
+
+.header-content-title {
+	position: absolute;
+	top: 0;
+	margin: 36px;
+
+}
+
+.header-content-title h1{
+	color: red;
+	font-size: 40px;
+	margin-bottom: 36px;
+
+}
+
+.arrow{
+	width: 2px;
+	height: 130px;
+	background: red;
+}
+
+.arrow-head{
+	width: 2px;
+	height: 10px;
+	position: absolute;
+	bottom: 0;
+	background: red;
+	transform: rotate(45deg);
+	left: 3px;
+}
